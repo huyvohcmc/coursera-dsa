@@ -4,9 +4,9 @@ def edit_distance(s, t):
     m = len(t) + 1
 
     D = [[0 for x in range(m)] for x in range(n)]
-    for i in range(n):
+    
+    for i, j in zip(range(n), range(m)):
         D[i][0] = i
-    for j in range(m):
         D[0][j] = j
 
     for j in range(1, m):

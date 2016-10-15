@@ -52,5 +52,3 @@ Solutions for [Data Structures and Algorithms Specialization](https://www.course
   1. [Convert array into heap](https://github.com/huyvofs/coursera-dsa/blob/master/data-structures/Starters%20PA2/build_heap.py)
   2. [Parallel processing](https://github.com/huyvofs/coursera-dsa/blob/master/data-structures/Starters%20PA2/job_queue.py)
   3. [Merging tables](https://github.com/huyvofs/coursera-dsa/blob/master/data-structures/Starters%20PA2/merging_tables.py)
-
-
