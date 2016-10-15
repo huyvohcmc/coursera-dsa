@@ -1,5 +1,5 @@
 # Coursera: Data Structures and Algorithms Specialization
-Solutions for [Data Structures and Algorithms Specialization](https://www.coursera.org/specializations/data-structures-algorithms) by [Huy Vo](https://github.com/huyvohcmc/)
+Solutions for [Data Structures and Algorithms Specialization](https://www.coursera.org/specializations/data-structures-algorithms)
 
 
 
