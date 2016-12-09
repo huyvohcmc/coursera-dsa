@@ -132,22 +132,30 @@ def insert(x):
   
 def erase(x): 
   global root
-  # Implement erase yourself
-  pass
+  if search(x) is None:
+    return
+  root = splay(root)
+  root = merge(root.left, root.right)
+  if root is not None:
+    root.parent = None
 
 def search(x): 
   global root
-  # Implement find yourself
-  
-  return False
+  result, root = find(root, x)
+  if result is None or result.key != x:
+    return None
+  return result.key
   
 def sum(fr, to): 
   global root
   (left, middle) = split(root, fr)
   (middle, right) = split(middle, to + 1)
-  ans = 0
-  # Complete the implementation of sum
-
+  if middle is None:
+    ans = 0
+    root = merge(left, right)
+  else:
+    ans = middle.sum
+    root = merge(merge(left, middle), right)
   return ans
 
 MODULO = 1000000001
@@ -163,7 +171,7 @@ for i in range(n):
     erase((x + last_sum_result) % MODULO)
   elif line[0] == '?':
     x = int(line[1])
-    print('Found' if search((x + last_sum_result) % MODULO) else 'Not found')
+    print('Found' if search((x + last_sum_result) % MODULO) is not None else 'Not found')
   elif line[0] == 's':
     l = int(line[1])
     r = int(line[2])
