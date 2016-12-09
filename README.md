@@ -61,15 +61,15 @@ The below solutions is **for reference only**. Please design and implement your 
 
 ### Week 3. Hash Tables and Hash Functions
 [Instruction](https://github.com/huyvohcmc/coursera-dsa/blob/master/data-structures/Starters%20PA3/_d11e054a8f57521f60e584860cbc752c_Programming-Assignment-3.pdf)
-  1. [Phone book](https://github.com/huyvohcmc/coursera-dsa/blob/master/data-structures/Starters%20PA3/phone_book.py)
-  2. [Hashing with chains](https://github.com/huyvohcmc/coursera-dsa/blob/master/data-structures/Starters%20PA3/hash_chains.py)
-  3. [Find pattern in text](https://github.com/huyvohcmc/coursera-dsa/blob/master/data-structures/Starters%20PA3/hash_substring.py) 
+1. [Phone book](https://github.com/huyvohcmc/coursera-dsa/blob/master/data-structures/Starters%20PA3/phone_book.py)
+2. [Hashing with chains](https://github.com/huyvohcmc/coursera-dsa/blob/master/data-structures/Starters%20PA3/hash_chains.py)
+3. [Find pattern in text](https://github.com/huyvohcmc/coursera-dsa/blob/master/data-structures/Starters%20PA3/hash_substring.py) 
 
 ### Week 4. Binary Search Trees
 [Instruction](https://github.com/huyvohcmc/coursera-dsa/blob/master/data-structures/Starters%20PA4/_e30b0d9dce7c168f24fb39cd26fa7624_Programming-Assignment-4.pdf)
-  1. [Binary tree traversals](https://github.com/huyvohcmc/coursera-dsa/blob/master/data-structures/Starters%20PA4/tree-orders.py)
-  2. [Set with range sums](https://github.com/huyvohcmc/coursera-dsa/blob/master/data-structures/Starters%20PA4/set_range_sum.py)
-  3. [Rope](https://github.com/huyvohcmc/coursera-dsa/blob/master/data-structures/Starters%20PA4/rope.py)
+1. [Binary tree traversals](https://github.com/huyvohcmc/coursera-dsa/blob/master/data-structures/Starters%20PA4/tree-orders.py)
+2. [Set with range sums](https://github.com/huyvohcmc/coursera-dsa/blob/master/data-structures/Starters%20PA4/set_range_sum.py)
+3. [Rope](https://github.com/huyvohcmc/coursera-dsa/blob/master/data-structures/Starters%20PA4/rope.py)
 
 
 
