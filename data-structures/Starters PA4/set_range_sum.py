@@ -37,7 +37,7 @@ def smallRotation(v):
   if grandparent != None:
     if grandparent.left == parent:
       grandparent.left = v
-    else: 
+    else:
       grandparent.right = v
 
 def bigRotation(v):
@@ -48,8 +48,8 @@ def bigRotation(v):
   elif v.parent.right == v and v.parent.parent.right == v.parent:
     # Zig-zig
     smallRotation(v.parent)
-    smallRotation(v)    
-  else: 
+    smallRotation(v)
+  else:
     # Zig-zag
     smallRotation(v);
     smallRotation(v);
@@ -74,27 +74,27 @@ def splay(v):
 # bigger key (next value in the order).
 # If the key is bigger than all keys in the tree,
 # then result is None.
-def find(root, key): 
+def find(root, key):
   v = root
   last = root
   next = None
   while v != None:
     if v.key >= key and (next == None or v.key < next.key):
-      next = v    
+      next = v
     last = v
     if v.key == key:
-      break    
+      break
     if v.key < key:
       v = v.right
-    else: 
-      v = v.left      
+    else:
+      v = v.left
   root = splay(last)
   return (next, root)
 
-def split(root, key):  
-  (result, root) = find(root, key)  
-  if result == None:    
-    return (root, None)  
+def split(root, key):
+  (result, root) = find(root, key)
+  if result == None:
+    return (root, None)
   right = splay(result)
   left = right.left
   right.left = None
@@ -104,7 +104,6 @@ def split(root, key):
   update(right)
   return (left, right)
 
-  
 def merge(left, right):
   if left == None:
     return right
@@ -117,9 +116,6 @@ def merge(left, right):
   update(right)
   return right
 
-  
-# Code that uses splay tree to solve the problem
-                                    
 root = None
 
 def insert(x):
@@ -127,10 +123,10 @@ def insert(x):
   (left, right) = split(root, x)
   new_vertex = None
   if right == None or right.key != x:
-    new_vertex = Vertex(x, x, None, None, None)  
+    new_vertex = Vertex(x, x, None, None, None)
   root = merge(merge(left, new_vertex), right)
-  
-def erase(x): 
+
+def erase(x):
   global root
   if search(x) is None:
     return
@@ -139,14 +135,14 @@ def erase(x):
   if root is not None:
     root.parent = None
 
-def search(x): 
+def search(x):
   global root
   result, root = find(root, x)
   if result is None or result.key != x:
     return None
   return result.key
-  
-def sum(fr, to): 
+
+def sum(fr, to):
   global root
   (left, middle) = split(root, fr)
   (middle, right) = split(middle, to + 1)
