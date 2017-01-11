@@ -1,9 +1,9 @@
 # Coursera: Data Structures and Algorithms Specialization
-Solutions for [Data Structures and Algorithms Specialization](https://www.coursera.org/specializations/data-structures-algorithms).
+Solutions for [Data Structures and Algorithms Specialization](https://www.coursera.org/specializations/data-structures-algorithms)
 
-Author: [Huy Vo](https:///www.github.io/huyvohcmc).
+Author: [Huy Vo](https:///www.github.io/huyvohcmc)
 
-The below solutions is **for reference only**. Please design and implement your own algorithms to pass the courses.
+The below solutions is **for reference only**. Please design and implement your own algorithms to pass the courses
 
 
 
@@ -63,7 +63,7 @@ The below solutions is **for reference only**. Please design and implement your 
 [Instruction](https://github.com/huyvohcmc/coursera-dsa/blob/master/data-structures/Starters%20PA3/_d11e054a8f57521f60e584860cbc752c_Programming-Assignment-3.pdf)
   1. [Phone book](https://github.com/huyvohcmc/coursera-dsa/blob/master/data-structures/Starters%20PA3/phone_book.py)
   2. [Hashing with chains](https://github.com/huyvohcmc/coursera-dsa/blob/master/data-structures/Starters%20PA3/hash_chains.py)
-  3. [Find pattern in text](https://github.com/huyvohcmc/coursera-dsa/blob/master/data-structures/Starters%20PA3/hash_substring.py) 
+  3. [Find pattern in text](https://github.com/huyvohcmc/coursera-dsa/blob/master/data-structures/Starters%20PA3/hash_substring.py)
 
 ### Week 4. Binary Search Trees
 [Instruction](https://github.com/huyvohcmc/coursera-dsa/blob/master/data-structures/Starters%20PA4/_e30b0d9dce7c168f24fb39cd26fa7624_Programming-Assignment-4.pdf)
