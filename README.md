@@ -2,7 +2,7 @@
 
 Solutions for [Data Structures and Algorithms Specialization](https://www.coursera.org/specializations/data-structures-algorithms)
 
-Author: [Huy Vo](https://www.github.io/huyvohcmc)
+Author: [Huy Vo](https://www.github.com/huyvohcmc)
 
 The below solutions is **for reference only**. Please design and implement your own algorithms to pass the courses.
 
