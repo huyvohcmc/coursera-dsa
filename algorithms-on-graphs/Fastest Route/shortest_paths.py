@@ -6,6 +6,7 @@ import queue
 def shortet_paths(adj, cost, s, distance, reachable, shortest):
     vertices = len(adj)
     distance[s] = 0
+    reachable[s] = 1
     queue = []
     visited = [False]*vertices
 
@@ -15,6 +16,7 @@ def shortet_paths(adj, cost, s, distance, reachable, shortest):
             for v in adj[u]:
                 if distance[v] > distance[u] + cost[u][i]:
                     distance[v] = distance[u] + cost[u][i]
+                    reachable[v] = 1
                 i += 1
 
     for u in range(vertices):
@@ -33,10 +35,6 @@ def shortet_paths(adj, cost, s, distance, reachable, shortest):
             if not visited[v] and v not in queue:
                 queue.append(v)
 
-    for u in range(vertices):
-        if distance[u] < 10**19:
-            reachable[u] = 1
-
 
 if __name__ == '__main__':
     input = sys.stdin.read()
@@ -52,7 +50,7 @@ if __name__ == '__main__':
         cost[a - 1].append(w)
     s = data[0]
     s -= 1
-    distance = [10**19] * n
+    distance = [float('inf')] * n
     reachable = [0] * n
     shortest = [1] * n
     shortet_paths(adj, cost, s, distance, reachable, shortest)
