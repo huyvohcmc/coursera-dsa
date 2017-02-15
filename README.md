@@ -267,4 +267,4 @@ Upon completing this programming assignment you will be able to:
 
 ## Contributing
 
-If you have tips to improve something e.g. README, code refactoring, etc., don't hesitate to create a pull request.
+If you have tips to improve something e.g. README, better solutions, code refactoring, etc., don't hesitate to create a pull request.
