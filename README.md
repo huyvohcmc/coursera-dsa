@@ -264,3 +264,7 @@ Upon completing this programming assignment you will be able to:
 - [Travelling Salesman Problem](https://github.com/huyvohcmc/coursera-dsa/tree/master/algorithms-on-graphs/Advanced%20Shortest%20Paths/travelling_salesman_problem)
 
 ---
+
+## Contributing
+
+If you have tips to improve something e.g. README, code refactoring, etc., don't hesitate to create a pull request.
