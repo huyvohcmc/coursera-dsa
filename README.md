@@ -8,9 +8,9 @@ The below solutions is **for reference only**. Please design and implement your 
 
 ---
 
-## [Course 1. Algorithmic Toolbox](https://github.com/huyvohcmc/coursera-dsa/tree/master/algorithmic-toolbox)
+# [Course 1. Algorithmic Toolbox](https://github.com/huyvohcmc/coursera-dsa/tree/master/algorithmic-toolbox)
 
-#### Week 1. Introduction
+### Week 1. Introduction
 
 Upon completing this programming assignment you will be able to:
 
@@ -41,7 +41,7 @@ Upon completing this programming assignment you will be able to:
 - [Least Common Multiple](https://github.com/huyvohcmc/coursera-dsa/blob/master/algorithmic-toolbox/1-intro-starter-files/lcm.py)
 - [Huge Fibonacci Number modulo m](https://github.com/huyvohcmc/coursera-dsa/blob/master/algorithmic-toolbox/1-intro-starter-files/fibonacci_huge.py)
 
-#### Week 2. Greedy Algorithms
+### Week 2. Greedy Algorithms
 
 Upon completing this programming assignment you will be able to:
 
@@ -61,7 +61,7 @@ Upon completing this programming assignment you will be able to:
 - [Covering Segments by Points](https://github.com/huyvohcmc/coursera-dsa/blob/master/algorithmic-toolbox/2_greedy_algorithms_starter_files/covering_segments.py)
 - [Pairwise Distinct Summands](https://github.com/huyvohcmc/coursera-dsa/blob/master/algorithmic-toolbox/2_greedy_algorithms_starter_files/different_summands.py)
 
-#### Week 3. Divide and Conquer
+### Week 3. Divide and Conquer
 
 Upon completing this programming assignment you will be able to:
 
@@ -82,7 +82,7 @@ Upon completing this programming assignment you will be able to:
 - [Number of Inversions](https://github.com/huyvohcmc/coursera-dsa/blob/master/algorithmic-toolbox/3-divideandconquer-starter-files/inversions.py)
 - [Points and Segments](https://github.com/huyvohcmc/coursera-dsa/blob/master/algorithmic-toolbox/3-divideandconquer-starter-files/points_and_segments.py)
 
-#### Week 4. Dynamic Programming
+### Week 4. Dynamic Programming
 
 Upon completing this programming assignment you will be able to:
 
@@ -108,9 +108,9 @@ Upon completing this programming assignment you will be able to:
 
 ---
 
-## [Course 2. Data Structures](https://github.com/huyvohcmc/coursera-dsa/tree/master/data-structures)
+# [Course 2. Data Structures](https://github.com/huyvohcmc/coursera-dsa/tree/master/data-structures)
 
-#### Week 1. Basic Data Structures
+### Week 1. Basic Data Structures
 
 Upon completing this programming assignment you will be able to:
 
@@ -126,7 +126,7 @@ Upon completing this programming assignment you will be able to:
 - [Compute tree height](https://github.com/huyvohcmc/coursera-dsa/blob/master/data-structures/Starters%20PA1/tree-height.py)
 - [Network packet processing simulation](https://github.com/huyvohcmc/coursera-dsa/blob/master/data-structures/Starters%20PA1/process_packages.py)
 
-#### Week 2. Priority Queues and Disjoint Sets
+### Week 2. Priority Queues and Disjoint Sets
 
 Upon completing this programming assignment you will be able to:
 
@@ -141,7 +141,7 @@ Upon completing this programming assignment you will be able to:
 - [Parallel processing](https://github.com/huyvohcmc/coursera-dsa/blob/master/data-structures/Starters%20PA2/job_queue.py)
 - [Merging tables](https://github.com/huyvohcmc/coursera-dsa/blob/master/data-structures/Starters%20PA2/merging_tables.py)
 
-#### Week 3. Hash Tables and Hash Functions
+### Week 3. Hash Tables and Hash Functions
 
 Upon completing this programming assignment you will be able to:
 
@@ -156,7 +156,7 @@ Upon completing this programming assignment you will be able to:
 - [Hashing with chains](https://github.com/huyvohcmc/coursera-dsa/blob/master/data-structures/Starters%20PA3/hash_chains.py)
 - [Find pattern in text](https://github.com/huyvohcmc/coursera-dsa/blob/master/data-structures/Starters%20PA3/hash_substring.py)
 
-#### Week 4. Binary Search Trees
+### Week 4. Binary Search Trees
 
 Upon completing this programming assignment you will be able to:
 
@@ -173,9 +173,9 @@ Upon completing this programming assignment you will be able to:
 
 ---
 
-## [Course 3. Algorithms on Graphs](https://github.com/huyvohcmc/coursera-dsa/tree/master/algorithms-on-graphs)
+# [Course 3. Algorithms on Graphs](https://github.com/huyvohcmc/coursera-dsa/tree/master/algorithms-on-graphs)
 
-#### Week 1. Decomposition of Graphs 1
+### Week 1. Decomposition of Graphs 1
 
 Upon completing this programming assignment you will be able to:
 
@@ -187,7 +187,7 @@ Upon completing this programming assignment you will be able to:
 - [Finding an Exit from a Maze](https://github.com/huyvohcmc/coursera-dsa/blob/master/algorithms-on-graphs/Decomposition%20of%20Graphs%201/reachability.py)
 - [Adding Exits to a Maze](https://github.com/huyvohcmc/coursera-dsa/blob/master/algorithms-on-graphs/Decomposition%20of%20Graphs%201/connected_components.py)
 
-#### Week 2. Decomposition of Graphs 2
+### Week 2. Decomposition of Graphs 2
 
 Upon completing this programming assignment you will be able to:
 
@@ -201,7 +201,7 @@ Upon completing this programming assignment you will be able to:
 - [Determining an Order of Courses](https://github.com/huyvohcmc/coursera-dsa/blob/master/algorithms-on-graphs/Decomposition%20of%20Graphs%202/toposort.py)
 - [Checking Whether Any Intersection in a City is Reachable from Any Other](https://github.com/huyvohcmc/coursera-dsa/blob/master/algorithms-on-graphs/Decomposition%20of%20Graphs%202/strongly_connected.py)
 
-#### Week 3. Paths in Graphs 1
+### Week 3. Paths in Graphs 1
 
 Upon completing this programming assignment you will be able to:
 
@@ -213,7 +213,7 @@ Upon completing this programming assignment you will be able to:
 - [Computing the Minimum Number of Flight Segments](https://github.com/huyvohcmc/coursera-dsa/blob/master/algorithms-on-graphs/Most%20Direct%20Route/bfs.py)
 - [Checking whether a Graph is Bipartite](https://github.com/huyvohcmc/coursera-dsa/blob/master/algorithms-on-graphs/Most%20Direct%20Route/bipartite.py)
 
-#### Week 4. Paths in Graphs 2
+### Week 4. Paths in Graphs 2
 
 Upon completing this programming assignment you will be able to:
 
@@ -227,7 +227,7 @@ Upon completing this programming assignment you will be able to:
 - [Detecting Anomalies in Currency Exchange Rates](https://github.com/huyvohcmc/coursera-dsa/blob/master/algorithms-on-graphs/Fastest%20Route/negative_cycle.py)
 - [Exchanging Money Optimally](https://github.com/huyvohcmc/coursera-dsa/blob/master/algorithms-on-graphs/Fastest%20Route/shortest_paths.py)
 
-#### Week 5. Minimum Spanning Trees
+### Week 5. Minimum Spanning Trees
 
 Upon completing this programming assignment you will be able to:
 
@@ -240,7 +240,7 @@ Upon completing this programming assignment you will be able to:
 - [Clustering](https://github.com/huyvohcmc/coursera-dsa/blob/master/algorithms-on-graphs/Minimum%20Spanning%20Trees/clustering.py)
 - [Building Roads to Connect Cities](https://github.com/huyvohcmc/coursera-dsa/blob/master/algorithms-on-graphs/Minimum%20Spanning%20Trees/connecting_points.py)
 
-#### Week 6. Advanced Shortest Paths Project (Optional)
+### Week 6. Advanced Shortest Paths Project (Optional)
 
 Upon completing this programming assignment you will be able to:
 
