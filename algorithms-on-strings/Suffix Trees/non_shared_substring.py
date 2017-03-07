@@ -2,8 +2,8 @@
 import sys
 
 def solve (p, q):
-	result = p
-	return result
+    result = p
+    return result
 
 p = sys.stdin.readline ().strip ()
 q = sys.stdin.readline ().strip ()
