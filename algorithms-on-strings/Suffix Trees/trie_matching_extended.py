@@ -36,21 +36,17 @@ def prefix_trie_matching(text, trie, external_idx):
             idx += 1
             if idx < len(text):
                 symbol = text[idx]
-            else:
-                if '$' in current:
-                    return res
-                else:
-                    symbol = '@'
-                    res = -1
-        else:
-            if '$' in current:
+            elif '$' in current:
                 return res
-            return -1
+            else:
+                symbol = '@'
+                res = -1
+        else:
+            return res if '$' in current else -1
 
 def solve (text, n, patterns):
     result = set()
     trie = build_trie(patterns)
-    # print(trie)
     n = len(text)
     for i in range(n):
         value = prefix_trie_matching(text[i:], trie, i)
