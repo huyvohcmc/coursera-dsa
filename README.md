@@ -6,6 +6,8 @@ Author: [Huy Vo](https://www.github.com/huyvohcmc)
 
 The below solutions is **for reference only**. Please design and implement your own algorithms to pass the courses.
 
+*Update*: I'm working on Course 4 - Algorithms on Strings (Suffix Arrays, Suffix Trees, BWT, KMP), will be available soon...
+
 ---
 
 # [Course 1. Algorithmic Toolbox](https://github.com/huyvohcmc/coursera-dsa/tree/master/algorithmic-toolbox)
