@@ -2,7 +2,7 @@
 
 Solutions for [Data Structures and Algorithms Specialization](https://www.coursera.org/specializations/data-structures-algorithms)
 
-Author: [Huy Vo](https://www.github.com/huyvohcmc)
+Author: [Huy Vo](https://huyvohcmc.github.io/)
 
 **Language:** I use Python to write all the solutions, so sorry C++ and Java users...
 
