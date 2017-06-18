@@ -10,7 +10,7 @@ Author: [Huy Vo](https://www.github.com/huyvohcmc)
 
 ---
 
-# [Course 1. Algorithmic Toolbox](https://github.com/huyvohcmc/coursera-dsa/tree/master/algorithmic-toolbox)
+# [Course 1. Algorithmic Toolbox](/algorithmic-toolbox/)
 
 ### Week 1. Introduction
 
@@ -54,7 +54,7 @@ Author: [Huy Vo](https://www.github.com/huyvohcmc)
 
 ---
 
-# [Course 2. Data Structures](https://github.com/huyvohcmc/coursera-dsa/tree/master/data-structures)
+# [Course 2. Data Structures](/data-structures/)
 
 ### Week 1. Basic Data Structures
 
@@ -90,7 +90,7 @@ Author: [Huy Vo](https://www.github.com/huyvohcmc)
 
 ---
 
-# [Course 3. Algorithms on Graphs](https://github.com/huyvohcmc/coursera-dsa/tree/master/algorithms-on-graphs)
+# [Course 3. Algorithms on Graphs](/algorithms-on-graphs/)
 
 ### Week 1. Decomposition of Graphs 1
 
@@ -109,35 +109,67 @@ Author: [Huy Vo](https://www.github.com/huyvohcmc)
 
 ### Week 3. Paths in Graphs 1
 
-[Programming Assignment](https://github.com/huyvohcmc/coursera-dsa/blob/master/algorithms-on-graphs/Most%20Direct%20Route/_39569bafe56d93c9b089abdb092f8ea9_10_paths_in_graphs_problems_1.pdf)
+[Programming Assignment](/algorithms-on-graphs/Most%20Direct%20Route/programming-assignment.pdf)
 
-- [Computing the Minimum Number of Flight Segments](https://github.com/huyvohcmc/coursera-dsa/blob/master/algorithms-on-graphs/Most%20Direct%20Route/bfs.py)
-- [Checking whether a Graph is Bipartite](https://github.com/huyvohcmc/coursera-dsa/blob/master/algorithms-on-graphs/Most%20Direct%20Route/bipartite.py)
+- [Computing the Minimum Number of Flight Segments](/algorithms-on-graphs/Most%20Direct%20Route/bfs.py)
+- [Checking whether a Graph is Bipartite](/algorithms-on-graphs/Most%20Direct%20Route/bipartite.py)
 
 ### Week 4. Paths in Graphs 2
 
-[Programming Assignment](https://github.com/huyvohcmc/coursera-dsa/blob/master/algorithms-on-graphs/Fastest%20Route/_ce9cda3b7147b43293eb494336e89f84_10_paths_in_graphs_problems_2.pdf)
+[Programming Assignment](/algorithms-on-graphs/Fastest%20Route/programming-assignment.pdf)
 
-- [Computing the Minimum Cost of a Flight](https://github.com/huyvohcmc/coursera-dsa/blob/master/algorithms-on-graphs/Fastest%20Route/dijkstra.py)
-- [Detecting Anomalies in Currency Exchange Rates](https://github.com/huyvohcmc/coursera-dsa/blob/master/algorithms-on-graphs/Fastest%20Route/negative_cycle.py)
-- [Exchanging Money Optimally](https://github.com/huyvohcmc/coursera-dsa/blob/master/algorithms-on-graphs/Fastest%20Route/shortest_paths.py)
+- [Computing the Minimum Cost of a Flight](/algorithms-on-graphs/Fastest%20Route/dijkstra.py)
+- [Detecting Anomalies in Currency Exchange Rates](/algorithms-on-graphs/Fastest%20Route/negative_cycle.py)
+- [Exchanging Money Optimally](/algorithms-on-graphs/Fastest%20Route/shortest_paths.py)
 
 ### Week 5. Minimum Spanning Trees
 
-[Programming Assignment](https://github.com/huyvohcmc/coursera-dsa/blob/master/algorithms-on-graphs/Minimum%20Spanning%20Trees/_8b8222a155c976cc2eec60a2dba332a4_11_spanning_trees_problems.pdf)
+[Programming Assignment](/algorithms-on-graphs/Minimum%20Spanning%20Trees/programming-assignment.pdf)
 
-- [Clustering](https://github.com/huyvohcmc/coursera-dsa/blob/master/algorithms-on-graphs/Minimum%20Spanning%20Trees/clustering.py)
-- [Building Roads to Connect Cities](https://github.com/huyvohcmc/coursera-dsa/blob/master/algorithms-on-graphs/Minimum%20Spanning%20Trees/connecting_points.py)
+- [Clustering](/algorithms-on-graphs/Minimum%20Spanning%20Trees/clustering.py)
+- [Building Roads to Connect Cities](/algorithms-on-graphs/Minimum%20Spanning%20Trees/connecting_points.py)
 
 ### Week 6. Advanced Shortest Paths Project (Optional)
 
-[Programming Assignment](https://github.com/huyvohcmc/coursera-dsa/blob/master/algorithms-on-graphs/Advanced%20Shortest%20Paths/_102641bd38de305aa091c117fd776343_Advanced-Shortest-Paths.pdf)
+[Programming Assignment](/algorithms-on-graphs/Advanced%20Shortest%20Paths/programming-assignment.pdf)
 
-- [Friend Suggestion](https://github.com/huyvohcmc/coursera-dsa/tree/master/algorithms-on-graphs/Advanced%20Shortest%20Paths/friend_suggestion)
-- [Compute Distance Faster Using Coordinates](https://github.com/huyvohcmc/coursera-dsa/tree/master/algorithms-on-graphs/Advanced%20Shortest%20Paths/dist_with_coords)
-- [Compute Distance with Preprocessing](https://github.com/huyvohcmc/coursera-dsa/tree/master/algorithms-on-graphs/Advanced%20Shortest%20Paths/dist_preprocess_small)
-- [Compute Distance with Preprocessing on Larger Road Networks](https://github.com/huyvohcmc/coursera-dsa/tree/master/algorithms-on-graphs/Advanced%20Shortest%20Paths/dist_preprocess_large)
-- [Travelling Salesman Problem](https://github.com/huyvohcmc/coursera-dsa/tree/master/algorithms-on-graphs/Advanced%20Shortest%20Paths/travelling_salesman_problem)
+- [Friend Suggestion](/algorithms-on-graphs/Advanced%20Shortest%20Paths/friend_suggestion.py)
+- [Compute Distance Faster Using Coordinates](/algorithms-on-graphs/Advanced%20Shortest%20Paths/dist_with_coords.py)
+- [Compute Distance with Preprocessing](/algorithms-on-graphs/Advanced%20Shortest%20Paths/dist_preprocess_small.py)
+- [Compute Distance with Preprocessing on Larger Road Networks](/algorithms-on-graphs/Advanced%20Shortest%20Paths/dist_preprocess_large.py)
+- [Travelling Salesman Problem](/algorithms-on-graphs/Advanced%20Shortest%20Paths/travelling_salesman_problem.py)
+
+---
+
+# [Course 4. Algorithms on Strings](/algorithm-on-strings/)
+
+### Week 1. Suffix Trees
+
+[Programming Assignment](/algorithms-on-strings/Suffix%20Trees/programming-assignment.pdf)
+
+- [Construct a Trie from a Collection of Patterns](/algorithms-on-strings/Suffix%20Trees/trie.py)
+- [Implement TrieMatching](/algorithms-on-strings/Suffix%20Trees/trie_matching.py)
+- [Extend TrieMatching](/algorithms-on-strings/Suffix%20Trees/trie_matching_extended.py)
+- [Construct the Suffix Tree of a String](/algorithms-on-strings/Suffix%20Trees/suffix_tree.py)
+- [Find the Shortest Non-Shared Substring of Two Strings](/algorithms-on-strings/Suffix%20Trees/non_shared_substring.py)
+
+### Week 2. BWT and Suffix Arrays
+
+[Programming Assignment](/algorithms-on-strings/BWT%20and%20Suffix%20Arrays/programming-assignment.pdf)
+
+- [Construct the Burrows–Wheeler Transform of a String](/algorithms-on-strings/BWT%20and%20Suffix%20Arrays/bwt.py)
+- [Reconstruct a String from its Burrows–Wheeler Trans-form](/algorithms-on-strings/BWT%20and%20Suffix%20Arrays/bwtinverse.py)
+- [Implement BetterBWMatching](/algorithms-on-strings/BWT%20and%20Suffix%20Arrays/bwmatching.py)
+- [Construct the Suffix Array of a String](/algorithms-on-strings/BWT%20and%20Suffix%20Arrays/suffix_array.py)
+
+### Week 3-4. Algorithmic Challenges
+
+[Programming Assignment](/algorithms-on-strings/Algorithmic%20Challenges/programming-assignment.pdf)
+
+- [Find All Occurrences of a Pattern in a String](/algorithms-on-strings/Algorithmic%20Challenges/kmp.py)
+- [Construct the Suffix Array of a Long String](/algorithms-on-strings/Algorithmic%20Challenges/suffix_array_long.py)
+- [Pattern Matching with the Suffix Array](/algorithms-on-strings/Algorithmic%20Challenges/suffix_array_matching.py)
+- [Construct the Suffix Tree from the Suffix Array](/algorithms-on-strings/Algorithmic%20Challenges/suffix_tree_from_array.py)
 
 ---
 
