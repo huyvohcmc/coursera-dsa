@@ -141,7 +141,7 @@ Author: [Huy Vo](https://huyvohcmc.github.io/)
 
 ---
 
-# [Course 4. Algorithms on Strings](/algorithm-on-strings/)
+# [Course 4. Algorithms on Strings](/algorithms-on-strings/)
 
 ### Week 1. Suffix Trees
 
