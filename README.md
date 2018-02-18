@@ -11,8 +11,6 @@ This repository contains almost all the solutions for [Data Structures and Algor
 
 ### Week 1. Introduction
 
-[Programming Assignment](/algorithmic-toolbox/1-intro-starter-files/programming-assignment.pdf)
-
 - [Small Fibonacci Number](/algorithmic-toolbox/1-intro-starter-files//fib.py)
 - [The Last Digit of a Large Fibonacci Number](/algorithmic-toolbox/1-intro-starter-files/fibonacci_last_digit.py)
 - [Greatest Common Divisor](/algorithmic-toolbox/1-intro-starter-files//algorithmic-toolbox/1-intro-starter-files/gcd.py)
@@ -20,8 +18,6 @@ This repository contains almost all the solutions for [Data Structures and Algor
 - [Huge Fibonacci Number modulo m](/algorithmic-toolbox/1-intro-starter-files/fibonacci_huge.py)
 
 ### Week 2. Greedy Algorithms
-
-[Programming Assignment](/algorithmic-toolbox/2_greedy_algorithms_starter_files/programming-assignment.pdf)
 
 - [Changing Money](/algorithmic-toolbox/2_greedy_algorithms_starter_files/change.py)
 - [Fractional Knapsack](/algorithmic-toolbox/2_greedy_algorithms_starter_files/fractional_knapsack.py)
@@ -31,8 +27,6 @@ This repository contains almost all the solutions for [Data Structures and Algor
 
 ### Week 3. Divide and Conquer
 
-[Programming Assignment](/algorithmic-toolbox/3-divideandconquer-starter-files/programming-assignment.pdf)
-
 - [Binary Search](/algorithmic-toolbox/3-divideandconquer-starter-files/binary_search.py)
 - [Majority Element](/algorithmic-toolbox/3-divideandconquer-starter-files/majority_element.py)
 - [Sorting: 3-Way Partition](/algorithmic-toolbox/3-divideandconquer-starter-files/sorting.py)
@@ -40,8 +34,6 @@ This repository contains almost all the solutions for [Data Structures and Algor
 - [Points and Segments](/algorithmic-toolbox/3-divideandconquer-starter-files/points_and_segments.py)
 
 ### Week 4. Dynamic Programming
-
-[Programming Assignment](/algorithmic-toolbox/4-dynprog-starter-files/programming-assignment.pdf)
 
 - [Primitive Calculator](/algorithmic-toolbox/4-dynprog-starter-files/primitive_calculator.py)
 - [Take as Much Gold as Possible](/algorithmic-toolbox/4-dynprog-starter-files/knapsack.py)
@@ -54,15 +46,11 @@ This repository contains almost all the solutions for [Data Structures and Algor
 
 ### Week 1. Basic Data Structures
 
-[Programming Assignment](/data-structures/Starters%20PA1/programming-assignment.pdf)
-
 - [Check brackets in the code](/data-structures/Starters%20PA1/check_brackets.py)
 - [Compute tree height](/data-structures/Starters%20PA1/tree-height.py)
 - [Network packet processing simulation](/data-structures/Starters%20PA1/process_packages.py)
 
 ### Week 2. Priority Queues and Disjoint Sets
-
-[Programming Assignment](/data-structures/Starters%20PA2/programming-assignment.pdf)
 
 - [Convert array into heap](/data-structures/Starters%20PA2/build_heap.py)
 - [Parallel processing](/data-structures/Starters%20PA2/job_queue.py)
@@ -70,15 +58,11 @@ This repository contains almost all the solutions for [Data Structures and Algor
 
 ### Week 3. Hash Tables and Hash Functions
 
-[Programming Assignment](/data-structures/Starters%20PA3/programming-assignment.pdf)
-
 - [Phone book](/data-structures/Starters%20PA3/phone_book.py)
 - [Hashing with chains](/data-structures/Starters%20PA3/hash_chains.py)
 - [Find pattern in text](/data-structures/Starters%20PA3/hash_substring.py)
 
 ### Week 4. Binary Search Trees
-
-[Programming Assignment](/data-structures/Starters%20PA4/programming-assignment.pdf)
 
 - [Binary tree traversals](/data-structures/Starters%20PA4/tree-orders.py)
 - [Set with range sums](/data-structures/Starters%20PA4/set_range_sum.py)
@@ -89,14 +73,10 @@ This repository contains almost all the solutions for [Data Structures and Algor
 
 ### Week 1. Decomposition of Graphs 1
 
-[Programming Assignment](/algorithms-on-graphs/Decomposition%20of%20Graphs%201/programming-assignment.pdf)
-
 - [Finding an Exit from a Maze](/algorithms-on-graphs/Decomposition%20of%20Graphs%201/reachability.py)
 - [Adding Exits to a Maze](/algorithms-on-graphs/Decomposition%20of%20Graphs%201/connected_components.py)
 
 ### Week 2. Decomposition of Graphs 2
-
-[Programming Assignment](/algorithms-on-graphs/Decomposition%20of%20Graphs%202/programming-assignment.pdf)
 
 - [Checking Consistency of CS Curriculum](/algorithms-on-graphs/Decomposition%20of%20Graphs%202/acyclicity.py)
 - [Determining an Order of Courses](/algorithms-on-graphs/Decomposition%20of%20Graphs%202/toposort.py)
@@ -104,14 +84,10 @@ This repository contains almost all the solutions for [Data Structures and Algor
 
 ### Week 3. Paths in Graphs 1
 
-[Programming Assignment](/algorithms-on-graphs/Most%20Direct%20Route/programming-assignment.pdf)
-
 - [Computing the Minimum Number of Flight Segments](/algorithms-on-graphs/Most%20Direct%20Route/bfs.py)
 - [Checking whether a Graph is Bipartite](/algorithms-on-graphs/Most%20Direct%20Route/bipartite.py)
 
 ### Week 4. Paths in Graphs 2
-
-[Programming Assignment](/algorithms-on-graphs/Fastest%20Route/programming-assignment.pdf)
 
 - [Computing the Minimum Cost of a Flight](/algorithms-on-graphs/Fastest%20Route/dijkstra.py)
 - [Detecting Anomalies in Currency Exchange Rates](/algorithms-on-graphs/Fastest%20Route/negative_cycle.py)
@@ -119,14 +95,10 @@ This repository contains almost all the solutions for [Data Structures and Algor
 
 ### Week 5. Minimum Spanning Trees
 
-[Programming Assignment](/algorithms-on-graphs/Minimum%20Spanning%20Trees/programming-assignment.pdf)
-
 - [Clustering](/algorithms-on-graphs/Minimum%20Spanning%20Trees/clustering.py)
 - [Building Roads to Connect Cities](/algorithms-on-graphs/Minimum%20Spanning%20Trees/connecting_points.py)
 
 ### Week 6. Advanced Shortest Paths Project (Optional)
-
-[Programming Assignment](/algorithms-on-graphs/Advanced%20Shortest%20Paths/programming-assignment.pdf)
 
 - [Friend Suggestion](/algorithms-on-graphs/Advanced%20Shortest%20Paths/friend_suggestion.py)
 - [Compute Distance Faster Using Coordinates](/algorithms-on-graphs/Advanced%20Shortest%20Paths/dist_with_coords.py)
@@ -139,8 +111,6 @@ This repository contains almost all the solutions for [Data Structures and Algor
 
 ### Week 1. Suffix Trees
 
-[Programming Assignment](/algorithms-on-strings/Suffix%20Trees/programming-assignment.pdf)
-
 - [Construct a Trie from a Collection of Patterns](/algorithms-on-strings/Suffix%20Trees/trie.py)
 - [Implement TrieMatching](/algorithms-on-strings/Suffix%20Trees/trie_matching.py)
 - [Extend TrieMatching](/algorithms-on-strings/Suffix%20Trees/trie_matching_extended.py)
@@ -149,16 +119,12 @@ This repository contains almost all the solutions for [Data Structures and Algor
 
 ### Week 2. BWT and Suffix Arrays
 
-[Programming Assignment](/algorithms-on-strings/BWT%20and%20Suffix%20Arrays/programming-assignment.pdf)
-
 - [Construct the Burrows–Wheeler Transform of a String](/algorithms-on-strings/BWT%20and%20Suffix%20Arrays/bwt.py)
 - [Reconstruct a String from its Burrows–Wheeler Trans-form](/algorithms-on-strings/BWT%20and%20Suffix%20Arrays/bwtinverse.py)
 - [Implement BetterBWMatching](/algorithms-on-strings/BWT%20and%20Suffix%20Arrays/bwmatching.py)
 - [Construct the Suffix Array of a String](/algorithms-on-strings/BWT%20and%20Suffix%20Arrays/suffix_array.py)
 
 ### Week 3-4. Algorithmic Challenges
-
-[Programming Assignment](/algorithms-on-strings/Algorithmic%20Challenges/programming-assignment.pdf)
 
 - [Find All Occurrences of a Pattern in a String](/algorithms-on-strings/Algorithmic%20Challenges/kmp.py)
 - [Construct the Suffix Array of a Long String](/algorithms-on-strings/Algorithmic%20Challenges/suffix_array_long.py)
@@ -172,4 +138,4 @@ All contributions are welcome. Just make a PR. Below is a list of general improv
 
 - Improve documentation
 - Clean up code (by fixing pep8 errors)
-- Better algorithms that reduce time complexity (espescially for course 3 & 4)
+- Better algorithms that reduce time complexity (espescially for course #3 & #4)
