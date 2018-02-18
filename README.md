@@ -1,12 +1,10 @@
 # Coursera: Data Structures and Algorithms Specialization
 
-Solutions for [Data Structures and Algorithms Specialization](https://www.coursera.org/specializations/data-structures-algorithms)
+Progress: 4/6 courses completed
 
-Maintainer: [Huy Vo](https://huyvohcmc.github.io/)
+This repository contains almost all the solutions for [Data Structures and Algorithms Specialization](https://www.coursera.org/specializations/data-structures-algorithms). The language of choice is Python3, but I tend to switch to Ruby/Rust in the future. All program assignments can be found inside the course weeks directory.
 
-**Language:** Python3 (and maybe Ruby/Rust in the future)
-
-**Note:** The below solutions is **for reference only**. Please design and implement your own algorithms to pass the courses.
+**Disclaimer:** The below solutions is **for reference only**. Please design and implement your own algorithms to pass the courses.
 
 
 # [Course 1. Algorithmic Toolbox](/algorithmic-toolbox/)
@@ -168,7 +166,10 @@ Maintainer: [Huy Vo](https://huyvohcmc.github.io/)
 - [Construct the Suffix Tree from the Suffix Array](/algorithms-on-strings/Algorithmic%20Challenges/suffix_tree_from_array.py)
 
 
-## Contributing
+# Contributing
 
-Yes please!
+All contributions are welcome. Just make a PR. Below is a list of general improvements that need to be added that I would love help with:
 
+- Improve documentation
+- Clean up code (by fixing pep8 errors)
+- Better algorithms that reduce time complexity (espescially for course 3 & 4)
