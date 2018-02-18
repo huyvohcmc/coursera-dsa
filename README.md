@@ -2,13 +2,12 @@
 
 Solutions for [Data Structures and Algorithms Specialization](https://www.coursera.org/specializations/data-structures-algorithms)
 
-Author: [Huy Vo](https://huyvohcmc.github.io/)
+Maintainer: [Huy Vo](https://huyvohcmc.github.io/)
 
-**Language:** I use Python to write all the solutions, so sorry C++ and Java users...
+**Language:** Python3 (and maybe Ruby/Rust in the future)
 
 **Note:** The below solutions is **for reference only**. Please design and implement your own algorithms to pass the courses.
 
----
 
 # [Course 1. Algorithmic Toolbox](/algorithmic-toolbox/)
 
@@ -52,7 +51,6 @@ Author: [Huy Vo](https://huyvohcmc.github.io/)
 - [Maximize the Value of an Arithmetic Expression](/algorithmic-toolbox/4-dynprog-starter-files/placing_parentheses.py)
 - [Longest Common Subsequence of Three Sequences](/algorithmic-toolbox/4-dynprog-starter-files/lcs3.py)
 
----
 
 # [Course 2. Data Structures](/data-structures/)
 
@@ -88,7 +86,6 @@ Author: [Huy Vo](https://huyvohcmc.github.io/)
 - [Set with range sums](/data-structures/Starters%20PA4/set_range_sum.py)
 - [Rope](/data-structures/Starters%20PA4/rope.py)
 
----
 
 # [Course 3. Algorithms on Graphs](/algorithms-on-graphs/)
 
@@ -139,7 +136,6 @@ Author: [Huy Vo](https://huyvohcmc.github.io/)
 - [Compute Distance with Preprocessing on Larger Road Networks](/algorithms-on-graphs/Advanced%20Shortest%20Paths/dist_preprocess_large.py)
 - [Travelling Salesman Problem](/algorithms-on-graphs/Advanced%20Shortest%20Paths/travelling_salesman_problem.py)
 
----
 
 # [Course 4. Algorithms on Strings](/algorithms-on-strings/)
 
@@ -171,8 +167,8 @@ Author: [Huy Vo](https://huyvohcmc.github.io/)
 - [Pattern Matching with the Suffix Array](/algorithms-on-strings/Algorithmic%20Challenges/suffix_array_matching.py)
 - [Construct the Suffix Tree from the Suffix Array](/algorithms-on-strings/Algorithmic%20Challenges/suffix_tree_from_array.py)
 
----
 
 ## Contributing
 
-If you have tips to improve something e.g. README, better solutions, code refactoring, etc., don't hesitate to create a pull request.
+Yes please!
+
