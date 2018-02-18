@@ -1,12 +1,14 @@
 # python3
 import sys
 
+
 def find_occurrences(text, patterns):
     occs = set()
 
-    // write your code here
+    # write your code here
 
     return occs
+
 
 if __name__ == '__main__':
     text = sys.stdin.readline().strip()

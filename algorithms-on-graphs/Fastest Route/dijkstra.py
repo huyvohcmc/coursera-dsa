@@ -1,4 +1,4 @@
-#Uses python3
+# Uses python3
 
 import sys
 import queue
@@ -15,6 +15,7 @@ def extract_min(visited, dist):
 
     return min_vertex
 
+
 def distance(adj, cost, s, t):
     vertices = len(adj)
     dist = [9223372036854775807]*vertices
@@ -26,14 +27,13 @@ def distance(adj, cost, s, t):
         if v == vertices:
             break
         visited[v] = True
-        i = 0 # magic variable
+        i = 0  # magic variable
         for u in adj[v]:
             if not visited[u] and dist[u] > dist[v] + cost[v][i]:
                 dist[u] = dist[v] + cost[v][i]
             i += 1
 
-    return dist[t] if dist[t] != 9223372036854775807
-        else -1
+    return dist[t] if dist[t] != 9223372036854775807 else -1
 
 
 if __name__ == '__main__':
