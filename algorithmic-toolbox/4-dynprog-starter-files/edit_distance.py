@@ -4,7 +4,7 @@ def edit_distance(s, t):
     m = len(t) + 1
 
     D = [[0 for x in range(m)] for x in range(n)]
-    
+
     for i, j in zip(range(n), range(m)):
         D[i][0] = i
         D[0][j] = j
@@ -19,7 +19,7 @@ def edit_distance(s, t):
                 D[i][j] = min(insertion, deletion, match)
             else:
                 D[i][j] = min(insertion, deletion, mismatch)
-    
+
     return D[n-1][m-1]
 
 if __name__ == "__main__":

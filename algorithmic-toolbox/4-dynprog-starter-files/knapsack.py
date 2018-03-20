@@ -3,7 +3,7 @@ import sys
 
 def optimal_weight(W, w):
     res = [[0 for x in range(W+1)] for x in range(len(w)+1)]
-    
+
     for i in range(0, len(w)+1):
         for j in range(0, W+1):
             if i == 0 or j == 0:

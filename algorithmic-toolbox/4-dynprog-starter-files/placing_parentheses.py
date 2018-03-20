@@ -9,6 +9,7 @@ def evalt(a, b, op):
     else:
         assert False
 
+
 def MinAndMax(M, m, i, j, operators):
     min_value = 10000000
     max_value = -10000000
@@ -21,6 +22,7 @@ def MinAndMax(M, m, i, j, operators):
         max_value = max(max_value, a, b, c, d)
     return min_value, max_value
 
+
 def get_maximum_value(digits, operators):
     n = len(digits)
     m = [[None for x in range(n)] for x in range(n)]
@@ -29,13 +31,13 @@ def get_maximum_value(digits, operators):
     for i in range(n):
         m[i][i] = digits[i]
         M[i][i] = digits[i]
-    
+
     for s in range(0, n):
         for i in range(0, n-s):
             j = i + s
             if i != j:
                 m[i][j], M[i][j] = MinAndMax(M, m, i, j, operators)
-    
+
     return M[0][n-1]
 
 

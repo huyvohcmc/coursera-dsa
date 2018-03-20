@@ -17,7 +17,7 @@ def get_majority_element(a):
     for num in a:
         if num == possible_element:
             count += 1
-            
+
     if count > len(a) / 2:
         return possible_element
     else:

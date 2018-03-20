@@ -16,7 +16,7 @@ def get_optimal_value(capacity, weights, values):
         opt_value += min_weight*(value/weight)
         weight -= min_weight
         capacity -= min_weight
-    
+
     return opt_value
 
 
