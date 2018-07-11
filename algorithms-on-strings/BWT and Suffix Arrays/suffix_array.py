@@ -15,7 +15,6 @@ def build_suffix_array(text):
         result.append(suffixes[i][0])
 
     return result
-    
 
 
 if __name__ == '__main__':

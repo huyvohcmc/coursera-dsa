@@ -24,7 +24,7 @@ def prefix_trie_matching(text, trie, external_idx):
     symbol = text[idx]
     current = trie[0]
     res = -1
-    
+
     while True:
         if not current:
             return res
@@ -60,7 +60,7 @@ text = sys.stdin.readline().strip()
 n = int(sys.stdin.readline().strip())
 patterns = []
 for i in range(n):
-	patterns += [sys.stdin.readline().strip()]
+    patterns += [sys.stdin.readline().strip()]
 
 ans = solve(text, n, patterns)
 

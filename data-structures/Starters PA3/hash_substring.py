@@ -22,7 +22,7 @@ def PrecomputeHashes(text, len_pattern, prime, multiplier):
     for i in range(len(text) - len_pattern - 1, -1, -1):
         H[i] = (multiplier * H[i+1] + ord(text[i]) - y * ord(text[i + len_pattern])) % prime
     return H
- 
+
 def get_occurrences(pattern, text):
     result = []
     prime = 1610612741
@@ -35,7 +35,6 @@ def get_occurrences(pattern, text):
             result.append(i)
 
     return result
-    
+
 if __name__ == '__main__':
     print_occurrences(get_occurrences(*read_input()))
-

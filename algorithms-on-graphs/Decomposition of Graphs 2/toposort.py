@@ -6,14 +6,14 @@ import sys
 def toposort(adj):
     visited = [False]*len(adj)
     order = []
-    
+
     def explore(v):
         visited[v] = True
         for u in adj[v]:
             if not visited[u]:
                 explore(u)
         order.append(v)
-    
+
     for v in range(len(adj)):
         if not visited[v]:
             explore(v)

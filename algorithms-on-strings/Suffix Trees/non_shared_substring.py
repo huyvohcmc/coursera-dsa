@@ -28,10 +28,10 @@ def solve (p, q):
 
     trie = build_trie(patterns)
     print(trie)
-    
+
     current = trie[0]
     substring = ""
-    
+
     while '$' not in current or current == trie[0]:
         for child in current:
             substring += child

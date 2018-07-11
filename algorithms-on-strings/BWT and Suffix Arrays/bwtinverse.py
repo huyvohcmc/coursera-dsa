@@ -5,7 +5,7 @@ def InverseBWT(bwt):
     last = [(val, idx)  for (idx, val) in enumerate(bwt)]
     first = sorted(last)
     first_to_last = {f: l for f, l in zip(first, last)}
-    
+
     next = first[0]
     result = ''
     for i in range(len(bwt)):

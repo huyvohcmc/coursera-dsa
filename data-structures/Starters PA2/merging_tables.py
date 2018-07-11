@@ -49,4 +49,3 @@ for i in range(m):
     destination, source = map(int, sys.stdin.readline().split())
     merge(destination - 1, source - 1)
     print(ans[0])
-    

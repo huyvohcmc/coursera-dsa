@@ -11,7 +11,7 @@ def acyclic(adj):
     finish = []
     current = []
     set = [x for x in range(len(adj))]
-    
+
     def explore(v):
         move_vertex(v, set, current)
         for u in adj[v]:

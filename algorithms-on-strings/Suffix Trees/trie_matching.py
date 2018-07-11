@@ -33,7 +33,7 @@ def prefix_trie_matching(text, trie):
     idx = 0
     symbol = text[idx]
     current = trie[0]
-    
+
     while True:
         if not current:
             return True

@@ -36,7 +36,7 @@ def number_of_strongly_connected_components(adj):
 
     adj = reverse_graph(adj)
     visited = [False]*len(adj)
-    
+
     while finish_order:
         v = finish_order.pop()
         if not visited[v]:

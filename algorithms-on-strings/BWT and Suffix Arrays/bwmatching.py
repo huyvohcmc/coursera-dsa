@@ -8,7 +8,7 @@ def PreprocessBWT(bwt):
     starts = {x: sorted_bwt.find(x) for x in char_set}
 
     occ_count_before = {}
-    
+
     for x in char_set:
         lst = [0]
         counter = 0
@@ -16,7 +16,7 @@ def PreprocessBWT(bwt):
             if bwt[i] == x:
                 counter += 1
             lst.append(counter)
-        occ_count_before[x] = lst 
+        occ_count_before[x] = lst
 
     return starts, occ_count_before
 

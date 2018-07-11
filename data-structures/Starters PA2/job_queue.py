@@ -16,20 +16,20 @@ class JobQueue:
                 min_i = left
             elif self.nodes[left][1] == self.nodes[min_i][1] and self.nodes[left][0] < self.nodes[min_i][0]:
                 min_i = left
-        
+
         if right <= len(self.nodes) - 1:
             if self.nodes[right][1] < self.nodes[min_i][1]:
                 min_i = right
             elif self.nodes[right][1] == self.nodes[min_i][1] and self.nodes[right][0] < self.nodes[min_i][0]:
                 min_i = right
-        
+
         if i != min_i:
             self.nodes[i], self.nodes[min_i] = self.nodes[min_i], self.nodes[i]
             self.SiftDown(min_i)
 
     def write_response(self):
         for i in range(len(self.jobs)):
-            print(self.assigned_workers[i], self.start_times[i]) 
+            print(self.assigned_workers[i], self.start_times[i])
 
     def assign_jobs(self):
         self.assigned_workers = [None] * len(self.jobs)

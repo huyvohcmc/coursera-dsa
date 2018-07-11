@@ -82,7 +82,7 @@ class DistPreprocessLarge:
 
 
 def readl():
-        return map(int, sys.stdin.readline().split())
+    return map(int, sys.stdin.readline().split())
 
 
 if __name__ == '__main__':
