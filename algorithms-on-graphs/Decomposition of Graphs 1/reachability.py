@@ -4,19 +4,19 @@ import sys
 
 def reach(adj, x, y):
     visited = [False for x in range(len(adj))]
-    def DFS(x):
+    def dfs(x):
         visited[x] = True
         for w in adj[x]:
             if w == y:
                 visited[w] == True
             if visited[w] is False:
-                DFS(w)
+                dfs(w)
         return 1 if visited[y] is True else 0
-    return DFS(x)
+    return dfs(x)
 
 if __name__ == '__main__':
-    input = sys.stdin.read()
-    data = list(map(int, input.split()))
+    user_input = input()
+    data = list(map(int, user_input.split()))
     n, m = data[0:2]
     data = data[2:]
     edges = list(zip(data[0:(2 * m):2], data[1:(2 * m):2]))

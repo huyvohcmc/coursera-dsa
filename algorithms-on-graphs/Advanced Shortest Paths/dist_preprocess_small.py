@@ -59,14 +59,14 @@ class DistPreprocessSmall:
         return importance, shortcuts, level
 
     # See description of this method in the starter for friend_suggestion
-    def clear():
+    def clear(self):
         for v in self.visited:
             self.bidistance[0][v] = self.bidistance[1][v] = self.INFINITY
             self.visited[v] = False;
         del self.visited[:]
 
     # See description of this method in the starter for friend_suggestion
-    def visit(side, v, dist):
+    def visit(self, side, v, dist):
         # Implement this method yourself
         pass
 
@@ -74,8 +74,8 @@ class DistPreprocessSmall:
     def query(self, s, t):
         q = [queue.PriorityQueue(), queue.PriorityQueue()]
         estimate = self.INFINITY
-        visit(0, s, 0)
-        visit(1, t, 0)
+        self.visit(0, s, 0)
+        self.visit(1, t, 0)
         # Implement the rest of the algorithm yourself
 
         return -1 if estimate == self.INFINITY else estimate

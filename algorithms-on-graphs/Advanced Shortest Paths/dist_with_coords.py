@@ -2,12 +2,11 @@
 
 import sys
 import queue
-import math
 
 class AStar:
     def __init__(self, n, adj, cost, x, y):
         # See the explanations of these fields in the starter for friend_suggestion        
-        self.n = n;
+        self.n = n
         self.adj = adj
         self.cost = cost
         self.inf = n*10**6
@@ -22,7 +21,7 @@ class AStar:
     def clear(self):
         for v in self.workset:
             self.d[v] = self.inf
-            self.visited[v] = False;
+            self.visited[v] = False
         del self.workset[0:len(self.workset)]
 
     # See the explanation of this method in the starter for friend_suggestion

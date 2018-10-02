@@ -7,7 +7,7 @@ def distance(xi, yi, xj, yj):
 
 def minimum_distance(vertices, adj, weight):
     result = 0.
-    X = set();
+    X = set()
     X.add(0)
 
     while len(X) != vertices:
@@ -24,8 +24,8 @@ def minimum_distance(vertices, adj, weight):
 
 
 if __name__ == '__main__':
-    input = sys.stdin.read()
-    data = list(map(int, input.split()))
+    user_input = sys.stdin.read()
+    data = list(map(int, user_input.split()))
     n = data[0]
     x = data[1::2]
     y = data[2::2]
