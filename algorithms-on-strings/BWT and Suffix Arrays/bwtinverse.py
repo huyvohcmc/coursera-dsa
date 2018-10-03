@@ -2,7 +2,7 @@
 import sys
 
 
-def InverseBWT(bwt):
+def inverse_bwt(bwt):
     last = [(val, idx) for (idx, val) in enumerate(bwt)]
     first = sorted(last)
     first_to_last = {f: l for f, l in zip(first, last)}
@@ -18,4 +18,4 @@ def InverseBWT(bwt):
 
 if __name__ == '__main__':
     bwt = sys.stdin.readline().strip()
-    print(InverseBWT(bwt))
+    print(inverse_bwt(bwt))
