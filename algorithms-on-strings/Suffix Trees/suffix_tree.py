@@ -21,25 +21,27 @@ class SuffixTree:
                 child = current.out[text[j]]
                 label = child.label
                 k = j + 1
-                while k-j < len(label) and text[k] == label[k-j]:
+                while k - j < len(label) and text[k] == label[k - j]:
                     k += 1
-                if k-j == len(label):
+                if k - j == len(label):
                     current = child
                 j = k
             else:
-                cExist, cNew = label[k-j], text[k]
-                mid = self.Node(label[:k-j])
+                cExist, cNew = label[k - j], text[k]
+                mid = self.Node(label[:k - j])
                 mid.out[cNew] = self.Node(text[k:])
                 mid.out[cExist] = child
-                child.label = label[k-j:]
+                child.label = label[k - j:]
                 current.out[text[j]] = mid
                 else:
                     current.out[text[j]] = self.Node(text[j:])
+
 
 def build_suffix_tree(text):
     result = []
     tree = SuffixTree(text)
     return tree
+
 
 def printOut(node):
     for child in node.out:

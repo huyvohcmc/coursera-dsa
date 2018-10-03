@@ -6,7 +6,7 @@ def optimal_summands(n):
     summands = []
     l = 1
 
-    while n > 2*l:
+    while n > 2 * l:
         summands.append(l)
         n -= l
         l += 1
