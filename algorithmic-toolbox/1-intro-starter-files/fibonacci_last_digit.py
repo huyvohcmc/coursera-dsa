@@ -13,4 +13,3 @@ if __name__ == '__main__':
     input = sys.stdin.read()
     n = int(input)
     print(get_fibonacci_last_digit(n))
-
