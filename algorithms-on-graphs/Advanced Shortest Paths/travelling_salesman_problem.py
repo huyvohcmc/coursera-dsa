@@ -87,7 +87,8 @@ class DistPreprocessLarge:
 INF = 10 ** 9
 
 
-# Returns the adjacency matrix of a graph on the given vertices with edges equal to the distances between
+# Returns the adjacency matrix of a graph on the given vertices with edges
+# equal to the distances between
 # those nodes in the initial road network
 def make_graph(ch, vertices):
     n = next(vertices)
@@ -96,8 +97,8 @@ def make_graph(ch, vertices):
     graph = [[INF] * n for _ in range(n)]
     for i in range(n):
         for j in range(n):
-            l = ch.query(vertices[i] - 1, vertices[j] - 1)
-            graph[i][j] = l if l != -1 else INF
+            m = ch.query(vertices[i] - 1, vertices[j] - 1)
+            graph[i][j] = m if m != -1 else INF
     return graph
 
 

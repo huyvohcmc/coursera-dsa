@@ -191,10 +191,10 @@ for i in range(n):
                 (x + last_sum_result) %
                 MODULO) is not None else 'Not found')
     elif line[0] == 's':
-        l = int(line[1])
+        m = int(line[1])
         r = int(line[2])
         res = sum(
-            (l + last_sum_result) %
+            (m + last_sum_result) %
             MODULO, (r + last_sum_result) %
             MODULO)
         print(res)
