@@ -1,12 +1,13 @@
-#Uses python3
+# Uses python3
 
 import sys
 
+
 def bipartite(adj):
-    visited = [False]*len(adj)
+    visited = [False] * len(adj)
     visited[0] = True
 
-    partition = [-1]*len(adj)
+    partition = [-1] * len(adj)
     partition[0] = 0
 
     queue = []
@@ -24,6 +25,7 @@ def bipartite(adj):
                     queue.append(u)
 
     return 1
+
 
 if __name__ == '__main__':
     user_input = sys.stdin.read()
