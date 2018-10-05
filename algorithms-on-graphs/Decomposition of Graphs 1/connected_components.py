@@ -7,16 +7,16 @@ def number_of_components(adj):
     visited = [False for x in range(len(adj))]
     components = 0
 
-    def DFS(x):
+    def dfs(x):
         visited[x] = True
         for w in adj[x]:
             if visited[w] is False:
-                DFS(w)
+                dfs(w)
 
     for vertex in range(len(adj)):
         if visited[vertex] is False:
             components += 1
-            DFS(vertex)
+            dfs(vertex)
 
     return components
 

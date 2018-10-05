@@ -26,8 +26,8 @@ def minimum_distance(vertices, adj, weight):
 
 
 if __name__ == '__main__':
-    input = sys.stdin.read()
-    data = list(map(int, input.split()))
+    user_input = sys.stdin.read()
+    data = list(map(int, user_input.split()))
     n = data[0]
     x = data[1::2]
     y = data[2::2]

@@ -3,7 +3,6 @@
 import sys
 import queue
 
-
 def distance(adj, s, t):
     n = len(adj)
     dist = [n] * n
@@ -22,8 +21,8 @@ def distance(adj, s, t):
 
 
 if __name__ == '__main__':
-    input = sys.stdin.read()
-    data = list(map(int, input.split()))
+    user_input = sys.stdin.read()
+    data = list(map(int, user_input.split()))
     n, m = data[0:2]
     data = data[2:]
     edges = list(zip(data[0:(2 * m):2], data[1:(2 * m):2]))

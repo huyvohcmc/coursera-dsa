@@ -32,8 +32,8 @@ def clustering(n, adj, weight, k):
 
 
 if __name__ == '__main__':
-    input = sys.stdin.read()
-    data = list(map(int, input.split()))
+    user_input = sys.stdin.read()
+    data = list(map(int, user_input.split()))
     n = data[0]
     data = data[1:]
     x = data[0:2 * n:2]

@@ -1,7 +1,6 @@
 # Uses python3
 
 import sys
-import queue
 
 
 def extract_min(visited, dist):
@@ -37,8 +36,8 @@ def distance(adj, cost, s, t):
 
 
 if __name__ == '__main__':
-    input = sys.stdin.read()
-    data = list(map(int, input.split()))
+    user_input = sys.stdin.read()
+    data = list(map(int, user_input.split()))
     n, m = data[0:2]
     data = data[2:]
     edges = list(

@@ -2,13 +2,14 @@
 
 import sys
 import queue
-import math
 
 
 class AStar:
     def __init__(self, n, adj, cost, x, y):
+
         # See the explanations of these fields in the starter for
         # friend_suggestion
+
         self.n = n
         self.adj = adj
         self.cost = cost
